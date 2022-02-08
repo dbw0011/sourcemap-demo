@@ -1,6 +1,6 @@
 #!/bin/bash
 CODE_VERSION=$1
-ACCESS_TOKEN=a178d7ee81df41e09cb63402355b2076
+ACCESS_TOKEN=0e1ef18187144c818c14868fc219fc9b
 
 echo "Building minified file and source map"
 
