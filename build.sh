@@ -9,7 +9,7 @@ node_modules/uglify-js2/bin/uglifyjs2 app.js --mangle --source-map app.min.map -
 
 echo "Uploading source map for code version $CODE_VERSION"
 
-curl https://sourcemaps.rollbardev.com/api/1/sourcemap \
+curl https://api.rollbar.com/api/1/sourcemap \
   -F access_token=$ACCESS_TOKEN \
   -F version=$CODE_VERSION \
   -F minified_url=http://localhost:8787/app.min.js \
