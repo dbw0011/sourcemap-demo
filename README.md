@@ -11,9 +11,9 @@ To build a source map:
 ./build.sh 123
 ```
 
-I have edited the build.sh to build the source map but NOT upload it, the Github Action will upload the source map with the deploy.
-
 (where `123` is the code version)
+
+NOTE: I have edited the build.sh to build the source map but NOT upload it, the Github Action will upload the source map with the deploy. Because of this, the source map version will always be up to date, but the code_version field in the index.html file is still set manually.
 
 To use the simple app:
 
