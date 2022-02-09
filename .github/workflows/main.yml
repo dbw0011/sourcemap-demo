@@ -33,6 +33,8 @@ jobs:
             ROLLBAR_USERNAME: 'davidwoller'
         with:
           # Environment where your code is running. e.g. production
-          environment: 'production'
+          environment: 'test'
           # Version deployed
           version: ${{github.sha}}
+          source_maps: app.min.map
+          minified_urls: app.js
