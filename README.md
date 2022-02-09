@@ -5,7 +5,7 @@ How to use:
 1. npm install
 2. in build.sh and index.html, edit the access tokens, and the endpoints to point to your dev/sandbox/etc. instance
 
-To upload a source map:
+To build a source map:
 
 ```
 ./build.sh 123
