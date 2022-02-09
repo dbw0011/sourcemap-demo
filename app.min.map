@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":["sayHello","saySomething","something","console","log","foo","setTimeout"],"mappings":"AAAA,QAASA,YACP,GAAIC,GAAe,SAASC,GAC1BC,QAAQC,IAAIF,EACZC,SAAQC,IAAIC,KAGdC,YAAW,WAAaL,EAAa,UAAY","file":"app.min.js"}
