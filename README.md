@@ -11,6 +11,8 @@ To build a source map:
 ./build.sh 123
 ```
 
+I have edited the build.sh to build the source map but NOT upload it, the Github Action will upload the source map with the deploy.
+
 (where `123` is the code version)
 
 To use the simple app:
